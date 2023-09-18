@@ -1582,6 +1582,16 @@ blockquote {
     text-align: center;
 }
 
+
+@media only screen and (max-width: 600px) {
+    #status {
+        left: 60%; /* centers the loading animation horizontally one the screen */
+    top: 60%; 
+    }
+    
+}
+
+
 /*!
  * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
  * Copyright 2015 Daniel Cardoso <@DanielCardoso>
