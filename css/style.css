@@ -52,6 +52,9 @@ body {
 p {
     line-height: 25px;
 }
+.p-0{
+    padding: 0 !important;
+}
 
 .row img {
     height: auto;
@@ -1501,6 +1504,9 @@ blockquote {
 
 #landing-footer .row {
     padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex
 }
 
 #landing-footer p {
